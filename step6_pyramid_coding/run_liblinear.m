@@ -1,4 +1,4 @@
-function [mean_A] = run_liblinear_for(nRunning,concatenated_features,label_final, nClass, nRandSelectPerClass)
+function [mean_A] = run_liblinear(nRunning,concatenated_features,label_final, nClass, nRandSelectPerClass)
 
 
 for running_times = 1:nRunning
